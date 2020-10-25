@@ -4,4 +4,4 @@
 
 - On a Unix-like system, The line endings in the program file must be Unix style line endings. It has to be checked by CI. [Source](https://docs.python.org/2/howto/webservers.html)
 
-
+- The file must not contain a BOM (Byte Order Mark).  The BOM interferes with the shebang line. It has to be checked by CI. [Source](https://docs.python.org/2/howto/webservers.html)
